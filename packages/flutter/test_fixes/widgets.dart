@@ -91,4 +91,11 @@ void main() {
   AnimatedList.of(context, nullOk: false);
   SliverAnimatedList.of(context, nullOk: true);
   SliverAnimatedList.of(context, nullOk: false);
+<<<<<<< HEAD
+=======
+
+  // Changes made in https://github.com/flutter/flutter/pull/59127
+  const BottomNavigationBarItem bottomNavigationBarItem = BottomNavigationBarItem(title: myTitle);
+  bottomNavigationBarItem.title;
+>>>>>>> f4abaa0735eba4dfd8f33f73363911d63931fe03
 }
